@@ -19,3 +19,4 @@ elif selection == "Blogs":
 elif selection == "Contact":
     st.subheader("Contact")
     st.write("You can reach me at shaiju@example.com")
+    from projects import show_projects
