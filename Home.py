@@ -5,7 +5,7 @@ st.set_page_config(page_title="Shaiju's Portfolio", layout="wide")
 # Sidebar menu
 st.sidebar.title("Navigate")
 selection = st.sidebar.radio("Go to", ["Home", "Projects", "Blogs", "Contact"])
-
+from projects import show_projects
 # Display corresponding page
 if selection == "Home":
     st.title("Hi, I'm Shaiju!")
