@@ -1,5 +1,13 @@
 import streamlit as st
 
-st.title("📬 Contact Me")
+st.title("📬 Contact")
 
-st.markdown("Feel free to reach out at: shaiju@example.com")
+st.markdown("""
+You can reach me at:
+
+- ✉️ Email: [your-email@example.com](mailto:your-email@example.com)
+- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
+- 💻 [GitHub](https://github.com/Shaiju786)
+
+I'd love to connect with fellow learners, builders, and mentors!
+""")
