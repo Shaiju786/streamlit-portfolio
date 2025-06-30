@@ -58,7 +58,7 @@ elif selection == "Contact":
     st.title("📬 Contact Me")
 
     st.markdown("""
-    - 📧 Email: shaiju@example.com  
+    - 📧 Email: shaijushajahan92@gmail.com  
     - 💼 [LinkedIn](https://www.linkedin.com/in/shaiju-shajahan)  
     - 🐙 [GitHub](https://github.com/Shaiju786)
 
