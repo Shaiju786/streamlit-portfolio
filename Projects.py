@@ -8,7 +8,7 @@ A beginner-friendly web app to add, view, and analyze personal expenses.
 
 **Tech Stack:** Python, Streamlit, Pandas  
 **Features:** Add expense, View summary, Visualize spending by category  
-**Live App:** *[Insert link]*  
+**Live App:** *[https://expense-tracker-app-qgruvatbmah3nsrndcgrvu.streamlit.app/]*  
 **Code:** [GitHub Repo](https://github.com/Shaiju786/expense-tracker-streamlit)
 
 **What I Learned:**
