@@ -31,7 +31,7 @@ elif selection == "Projects":
     A simple app to manage and visualize personal expenses.
 
     **Tools Used:** Python, Streamlit, Pandas  
-    🔗 [View Code on GitHub](https://github.com/Shaiju786/expense-tracker)  
+    
     🔗 [Open Live App](https://expense-tracker-app-qgruvatbmah3nsrndcgrvu.streamlit.app/)
     """)
 
