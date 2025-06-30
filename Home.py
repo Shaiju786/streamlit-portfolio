@@ -28,23 +28,14 @@ elif selection == "Projects":
 
     st.subheader("💸 Expense Tracker App")
     st.write("""
-    A simple Streamlit app to manage and visualize personal expenses.  
-    **Tech Stack:** Python, Streamlit, Pandas  
-    🔗 [GitHub Repo](https://github.com/Shaiju786/expense-tracker)
+    A simple app to manage and visualize personal expenses.
+
+    **Tools Used:** Python, Streamlit, Pandas  
+    🔗 [View Code on GitHub](https://github.com/Shaiju786/expense-tracker)  
+    🔗 [Open Live App](https://expense-tracker-app-qgruvatbmah3nsrndcgrvu.streamlit.app/)
     """)
 
-    st.subheader("🔍 Google Search Console to Google Sheets Automation")
-    st.write("""
-    Automates pulling Google Search Console data into Google Sheets using Python and Google APIs.  
-    **Tech Stack:** Python, GSC API, gspread  
-    🚧 Coming Soon
-    """)
-
-    st.subheader("📦 Logi-Sys Sales Workflow Explainer")
-    st.write("""
-    Internal project for demoing the freight ERP workflow, showcasing digital transformation potential.  
-    **Format:** Interactive walkthrough (Not public)
-    """)
+    # Add more projects below as needed...
 
 # ------------------------
 # Section: Blogs
