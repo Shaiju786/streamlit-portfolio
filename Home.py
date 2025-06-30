@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Set page configuration
+# Page setup
 st.set_page_config(page_title="Shaiju's Portfolio", layout="wide")
 
 # Sidebar Navigation
@@ -24,41 +24,47 @@ if selection == "Home":
 # Section: Projects
 # ------------------------
 elif selection == "Projects":
-    st.title("Projects")
+    st.title("🛠️ My Projects")
 
-    st.subheader("1. Expense Tracker App")
+    st.subheader("💸 Expense Tracker App")
     st.write("""
-    A simple app to track your expenses and categorize spending.  
-    **Tools:** Streamlit, Python, Pandas  
-    [View Code on GitHub](https://github.com/Shaiju786/expense-tracker)
+    A simple Streamlit app to manage and visualize personal expenses.  
+    **Tech Stack:** Python, Streamlit, Pandas  
+    🔗 [GitHub Repo](https://github.com/Shaiju786/expense-tracker)
     """)
 
-    st.subheader("2. Google Search Console → Sheets Automation")
+    st.subheader("🔍 Google Search Console to Google Sheets Automation")
     st.write("""
-    Pulls data from Google Search Console into Google Sheets using Python and the GSC API.  
-    **Tools:** Python, Google API, gspread  
-    [Coming Soon]
+    Automates pulling Google Search Console data into Google Sheets using Python and Google APIs.  
+    **Tech Stack:** Python, GSC API, gspread  
+    🚧 Coming Soon
+    """)
+
+    st.subheader("📦 Logi-Sys Sales Workflow Explainer")
+    st.write("""
+    Internal project for demoing the freight ERP workflow, showcasing digital transformation potential.  
+    **Format:** Interactive walkthrough (Not public)
     """)
 
 # ------------------------
 # Section: Blogs
 # ------------------------
 elif selection == "Blogs":
-    st.title("Blogs")
+    st.title("📚 Blogs")
 
-    st.write("🚧 Coming soon! I’ll be sharing learnings from my coding and automation journey here.")
+    st.write("🚧 Coming soon! I’ll be sharing tutorials and reflections on learning Python, automation, and tech.")
 
 # ------------------------
 # Section: Contact
 # ------------------------
 elif selection == "Contact":
-    st.title("Contact Me")
+    st.title("📬 Contact Me")
 
-    st.write("""
-    📧 Email: shaiju@example.com  
-    💼 [LinkedIn](https://www.linkedin.com/in/shaiju-shajahan)  
-    🐙 [GitHub](https://github.com/Shaiju786)
+    st.markdown("""
+    - 📧 Email: shaiju@example.com  
+    - 💼 [LinkedIn](https://www.linkedin.com/in/shaiju-shajahan)  
+    - 🐙 [GitHub](https://github.com/Shaiju786)
+
+    Feel free to reach out for collaboration or just to connect!
     """)
-
-    st.write("Feel free to connect or drop me a message!")
 
