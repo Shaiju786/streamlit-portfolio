@@ -5,7 +5,7 @@ st.title("📬 Contact")
 st.markdown("""
 You can reach me at:
 
-- ✉️ Email: [your-email@example.com](mailto:your-email@example.com)
+- ✉️ Email: [shaijushajahan92@gmail.com.com](mailto:your-shaijushajahan@92@gmail.com)
 - 💼 [LinkedIn](https://linkedin.com/in/your-profile)
 - 💻 [GitHub](https://github.com/Shaiju786)
 
