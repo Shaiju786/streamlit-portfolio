@@ -34,6 +34,15 @@ elif selection == "Projects":
     
     🔗 [Open Live App](https://expense-tracker-app-qgruvatbmah3nsrndcgrvu.streamlit.app/)
     """)
+    st.subheader("💸 Note Taking App")
+    st.write("""
+    A simple app to manage and visualize personal expenses.
+
+    **Tools Used:** Python, Streamlit, Pandas  
+    
+    🔗 [Open Live App](https://note-taking-app-abc123.streamlit.app/)
+    """)
+
 
     # Add more projects below as needed...
 
